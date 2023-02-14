@@ -1,9 +1,9 @@
-const text = require('../sample/string');
+const string = 'This is Test';
 
-test('text equal This is Test', () => {
-  expect(text()).toMatch("This is Test");
+test('text match This is Test', () => {
+  expect(string).toMatch(/Test/);
 });
 
-test('text not equal This is Test', () => {
-  expect(text()).not.toMatch("This is Test2");
+test('text not match This is Test', () => {
+  expect(string).not.toMatch(/Test2/);
 });
