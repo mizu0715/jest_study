@@ -12,3 +12,5 @@ test('contain color', () => {
 test('not contain color', () => {
   expect(colorList).not.toContain('green');
 });
+
+export {}

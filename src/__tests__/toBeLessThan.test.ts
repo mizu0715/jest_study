@@ -5,3 +5,5 @@ test('to less than', () => {
 test('not to less than', () => {
   expect(10).not.toBeLessThan(9); // toBeGreaterThan
 });
+
+export {}

@@ -18,3 +18,5 @@ test('to equal', () => {
 test('not to equal', () => {
   expect(obj1).not.toEqual(obj3);
 });
+
+export {}

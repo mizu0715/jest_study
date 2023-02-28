@@ -1,4 +1,6 @@
-const sum = require('../sample/sum');
+// CommonJSではimportではなくrequireじゃないとエラー
+// babelでCJSに変換する場合はimportでもok
+const sum = require('../../functions/sum');
 
 const string = 'This is Test';
 

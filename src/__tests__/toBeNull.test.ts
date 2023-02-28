@@ -8,3 +8,5 @@ test('to null', () => {
 test('not to null', () => {
   expect(foo).not.toBeNull();
 });
+
+export {}
